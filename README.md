@@ -12,8 +12,13 @@ Various ML classification models have been applied as well (Logistic Regression,
 The ML model with best results is SVM with TD-IDF. The MLP approach also performed very well with TD-IDF.
 
 ## Structure
-1. Web Scraping Notebook
-2. Text Pre-Processing Notebook
+All temporary files are in the `data` folder. Vector models are in the `vectors` folder. Some python modules are in the `helpers` folder, they include utilities to help process the data and build and evaluate the models. All the code to extract the data, EDA, preprocess text and build and evaluate models is in the `notebooks` folder.
+
+These are the steps that were followed to complete the project. Each step corresponds to one notebook.
+1. b) Web Scraping from https://millercenter.org/
+1. a) Web Scraping from https://www.americanrhetoric.com/
+2. Text Pre-Processing
 3. Exploratory Data Analysis
-4. Neural Networks
-5. Deep Learning models
+4. Vectorization and Classification Models
+5. Neural Networks
+6. Deep Learning models
